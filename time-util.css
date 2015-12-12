@@ -1,0 +1,40 @@
+.timeutil {
+  background-image: url(clock-select.png);
+  background-position: 2px center;
+  background-repeat: no-repeat;
+  max-width: 80px !important;
+  padding-left: 20px;
+  width: 80px !important;
+}
+.timeutil.error {
+  color: red;
+}
+.timeutil .timeutil-selector {
+  background: white;
+  border: 1px solid #bbb;
+  -webkit-box-shadow: 0px 0px 8px #aaa;
+  -moz-box-shadow: 0px 0px 8px #aaa;
+  -o-box-shadow: 0px 0px 8px #aaa;
+  box-shadow: 0px 0px 8px #aaa;
+  width: 80px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 999999;
+}
+.timeutil .times {
+  max-height: 110px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.timeutil .timeutil-elem {
+  cursor: pointer;
+  padding: 2px 10px;
+  z-index: 999999;
+}
+.timeutil .timeutil-elem:hover {
+  border-color: black;
+}
+.timeutil .timeutil-elem.timeutil-elem-focused {
+  background: #6CA6D8;
+  color: #FFF !important;
+}

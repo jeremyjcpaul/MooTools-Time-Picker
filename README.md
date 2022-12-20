@@ -1,6 +1,10 @@
 # MooTools-Time-Picker
 A lightweight time picker for MooTools
 
+```diff
+- No longer maintained by the author, since Dec 2015
+```
+
 ##Usage
 
 ```js
